@@ -1,0 +1,16 @@
+{
+  "workflow": {
+    "name": "simple_etl_workflow",
+    "description": "Workflow created via API"
+  },
+  "nodes": [
+    {
+      "name": "simple_extract_node",
+      "sqlFile": "./simple_extract_node.sql"
+    },
+    {
+      "name": "simple_transform_node",
+      "sqlFile": "./simple_transform_node.sql"
+    }
+  ]
+}
